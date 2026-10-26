@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "774507324025",
+    "project_id": "prueba-bdf22",
+    "storage_bucket": "prueba-bdf22.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774507324025:android:bf2b3b1ab5e337992d2aa8",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf9hMVYrjqh8aJQATmKGJwLXRSg_X2x8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

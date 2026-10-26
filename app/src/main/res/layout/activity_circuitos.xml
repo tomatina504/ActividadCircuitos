@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="Manipular Circuito"
+        android:textColor="#00BCD4"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Botón Activar -->
+    <Button
+        android:id="@+id/btnActivarCircuito"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#00BCD4"
+        android:text="Activar Circuito"
+        android:textColor="@android:color/white" />
+
+    <!-- Botón Desactivar -->
+    <Button
+        android:id="@+id/btnDesactivarCircuito"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#9C27B0"
+        android:text="Desactivar Circuito"
+        android:textColor="@android:color/white" />
+
+    <!-- Botón Volver -->
+    <Button
+        android:id="@+id/btnVolverCircuito"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:backgroundTint="#084F83"
+        android:text="Volver"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="#00BCD4"
+        android:text="Login"
+        android:textColor="@android:color/black"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <!-- Rut -->
+    <EditText
+        android:id="@+id/etLoginRut"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:background="#00BCD4"
+        android:hint="Rut"
+        android:inputType="text"
+        android:paddingHorizontal="12dp" />
+
+    <!-- Contraseña -->
+    <EditText
+        android:id="@+id/etLoginContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="24dp"
+        android:background="#00BCD4"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:paddingHorizontal="12dp" />
+
+    <!-- Botón Iniciar Sesión -->
+    <Button
+        android:id="@+id/btnIniciarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="12dp"
+        android:background="#084F83"
+        android:backgroundTint="@android:color/black"
+        android:text="Iniciar Sesión"
+        android:textColor="@android:color/white" />
+
+    <!-- Botón Crear Cuenta -->
+    <Button
+        android:id="@+id/btnIrCrearCuenta"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#9C27B0"
+        android:backgroundTint="@android:color/black"
+        android:text="Crear Cuenta"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

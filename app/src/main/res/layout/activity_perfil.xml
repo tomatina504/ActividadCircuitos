@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="#00BCD4"
+        android:text="Mi Perfil"
+        android:textColor="#000080"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvRutPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="#00BCD4"
+        android:text="RUT: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvNombrePerfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="#00BCD4"
+        android:text="Nombre: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvApellidoPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="#00BCD4"
+        android:text="Apellido: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvCorreoPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="#00BCD4"
+        android:text="Correo: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvCargoPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Cargo: "
+        android:textSize="18sp"
+        android:background="#00BCD4" />
+
+    <Button
+        android:id="@+id/btnVolverPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:backgroundTint="#084F83"
+        android:text="Volver"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Nombre de usuario logueado en azul oscuro -->
+    <TextView
+        android:id="@+id/tvNombreUsuarioMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="8dp"
+        android:background="#00BCD4"
+        android:text="Nombre Usuario"
+        android:textColor="#000080"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="#00BCD4"
+        android:text="Menú"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <!-- Botón Manipular Circuito -->
+    <Button
+        android:id="@+id/btnManipularCircuito"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/a"
+        android:text="Manipular Circuito"
+        android:textColor="@android:color/white" />
+
+    <!-- Botón Ver Acciones Realizadas -->
+    <Button
+        android:id="@+id/btnVerAcciones"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/a"
+        android:text="Ver Acciones Realizadas"
+        android:textColor="@android:color/white" />
+
+    <!-- Botón Ver Estadísticas -->
+    <Button
+        android:id="@+id/btnVerEstadisticas"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/a"
+        android:text="Ver Estadísticas"
+        android:textColor="@android:color/white" />
+
+    <!-- Botón Ver Perfil -->
+    <Button
+        android:id="@+id/btnVerPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/a"
+        android:text="Ver Perfil"
+        android:textColor="@android:color/white" />
+
+    <!-- Botón Cerrar Sesión (Rojo) -->
+    <Button
+        android:id="@+id/btnCerrarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:backgroundTint="#084F83"
+        android:text="Cerrar Sesión"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

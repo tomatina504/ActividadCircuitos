@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="24dp"
+            android:background="#00BCD4"
+            android:text="Crear Cuenta"
+            android:textColor="@android:color/black"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <!-- Rut -->
+        <EditText
+            android:id="@+id/etRegisterRut"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="12dp"
+            android:background="@color/a"
+            android:hint="Rut"
+            android:inputType="text"
+            android:paddingHorizontal="12dp" />
+
+        <!-- Nombre y Apellido en una fila horizontal -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etRegisterNombre"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="6dp"
+                android:layout_weight="1"
+                android:background="@color/a"
+                android:hint="Nombre"
+                android:inputType="textPersonName"
+                android:paddingHorizontal="12dp" />
+
+            <EditText
+                android:id="@+id/etRegisterApellido"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="6dp"
+                android:layout_weight="1"
+                android:background="@color/a"
+                android:hint="Apellido"
+                android:inputType="textPersonName"
+                android:paddingHorizontal="12dp" />
+        </LinearLayout>
+
+        <!-- Correo Electrónico -->
+        <EditText
+            android:id="@+id/etRegisterCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="12dp"
+            android:background="@color/a"
+            android:hint="Correo Electrónico"
+            android:inputType="textEmailAddress"
+            android:paddingHorizontal="12dp" />
+
+        <!-- Selector de Cargo -->
+        <Spinner
+            android:id="@+id/spRegisterCargo"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="12dp"
+            android:background="@color/a"
+            android:paddingHorizontal="12dp" />
+
+        <!-- Contraseña -->
+        <EditText
+            android:id="@+id/etRegisterContrasena"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="12dp"
+            android:background="@color/a"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:paddingHorizontal="12dp" />
+
+        <!-- Repetir Contraseña -->
+        <EditText
+            android:id="@+id/etRegisterRepetirContrasena"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="24dp"
+            android:background="@color/a"
+            android:hint="Repetir Contraseña"
+            android:inputType="textPassword"
+            android:paddingHorizontal="12dp" />
+
+        <!-- Botones en fila horizontal -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnRegistrar"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="6dp"
+                android:layout_weight="1"
+                android:backgroundTint="#9C27B0"
+                android:text="Registrar"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btnVolverLogin"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="6dp"
+                android:layout_weight="1"
+                android:backgroundTint="#084F83"
+                android:text="Volver"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
